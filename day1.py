@@ -8,3 +8,4 @@ print(f"The name of you band is {a+b} \nThanks for using the band name geneator"
 
 
 
+
