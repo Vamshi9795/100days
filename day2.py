@@ -4,7 +4,7 @@ try:
     total_bill = float(input(" Enter the total bill thats on the receipt :\n "))
     total_people = float(input(" Enter the numer of people in the group :\n ")) #no of people in the group
     total_tip = float(input(" What percentage would you like to tip :\n ")) # total tip that are paying
-    total_bill_share = (total_bill + (total_bill*total_tip)/100 )/total_people
-    print(f"the total share per person is {total_bill_share} ")
+    total_bill_share = (total_bill + (total_bill*total_tip)/100 )/total_people #logic cacucating tip plus ading it to the total plus didving itby total people 
+    print(f"the total share per person is {total_bill_share} ") # printing it out
 except:
-    print(" Please enter a numeric value ")
+    print(" Please enter a numeric value ") # using try and excet to chcek for error inputs
